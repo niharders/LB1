@@ -31,4 +31,5 @@ Eigener Service auf Basis IaC implementieren
 1. vagrant destroy -f ausgeführt
 2. Fixe IP für den Master (192.168.1.10) und die Clients (192.168.1.#) angegeben
 3. Forwarded Ports angegeben, damit man auf die Webseite kommt. (guest 80, host 8080)
-4.
+4. Im nächsten Schritt gab ich in, in welchen Ordner auf der VM, die html Seite gespeichert werden sollte
+5. In den folgen befehlen sagte ich nur noch, dass man via Shell apache installieren sollte.
