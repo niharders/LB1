@@ -23,3 +23,12 @@ Bestehende VM aus Vagrant Cloudzum laufen bringen:
 4. Im Vagrantfile beim master die BOX_IMAGE durch BOX_IMAGE1 ersetzt
 5. vagrant up ausgeführt
 6. Eine Debian Maschine wurde als master erstellt
+
+
+
+Eigener Service auf Basis IaC implementieren
+
+1. vagrant destroy -f ausgeführt
+2. Fixe IP für den Master (192.168.1.10) und die Clients (192.168.1.#) angegeben
+3. Forwarded Ports angegeben, damit man auf die Webseite kommt. (guest 80, host 8080)
+4.
