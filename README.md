@@ -33,3 +33,9 @@ Eigener Service auf Basis IaC implementieren
 3. Forwarded Ports angegeben, damit man auf die Webseite kommt. (guest 80, host 8080)
 4. Im nächsten Schritt gab ich in, in welchen Ordner auf der VM, die html Seite gespeichert werden sollte
 5. In den folgen befehlen sagte ich nur noch, dass man via Shell apache installieren sollte.
+
+Firewall installieren
+
+1. Als erstes gab ich den apt-get install ufw befehl ein, um die Firewall zu installieren
+2. Danach habe ich sie noch mit "enable" aktiviert
+3. Mit den Befehlen Allow gab ich die gewünschten Ports frei
