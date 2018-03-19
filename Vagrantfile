@@ -17,6 +17,10 @@ Vagrant.configure("2") do |config|
     sudo apt-get install -y php
     sudo su
     cd /var/www/html/
+	sudo apt-get ufw
+	sudo ufw enable
+	sudo ufw allow 80/tcp
+	sudo ufw allow 8080/tcp
   
 
 SHELL
